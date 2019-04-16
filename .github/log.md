@@ -53,3 +53,7 @@ Great! The endpoint is created and tested with ngrok
 ## Apr 15 10:30PM
 
 Okay, i'm not receiving events when changing user data. The `request url` is verified and the workspace events were created. Need to figure it out how to trigger an event
+
+## Apr 15 10:45PM
+
+I figured it out that I needed to add the app to my workspace LOL
