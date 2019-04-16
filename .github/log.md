@@ -32,4 +32,8 @@ Understanding how the Events API works. Basically they will send a POST request 
 
 ## Apr 15 09:16PM
 
-Create the project structure and the first endpoint to test the Events API
+Need to create the project structure and the first endpoint to test the Events API
+
+## Apr 15 09:28PM
+
+Create the project structure
