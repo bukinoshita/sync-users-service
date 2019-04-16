@@ -21,3 +21,7 @@ Decide what technology to use
 ## Apr 15 09:10PM
 
 Create new workspace (https://sync-users.slack.com)
+
+## Apr 15 09:12PM
+
+Create a new app and attach to workspace
