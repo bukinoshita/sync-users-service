@@ -1,0 +1,49 @@
+{
+  "name": "sync-users-service",
+  "version": "0.0.0",
+  "description": "sync slack users service",
+  "main": "server.js",
+  "repository": "bukinoshita/sync-users-service",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "cross-env NODE_ENV=test DATABASE=mongodb://localhost:27017/sync-users-service-test PORT=4009 mocha './{,!(node_modules)/**/}*.test.js' --timeout=16000  --exit",
+    "lint": "xo --quiet"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint-config-prettier": "^4.1.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.17.0",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "extends": [
+      "prettier"
+    ],
+    "ignores": [
+      "coverage"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --semi false --single-quote --write",
+      "yarn lint",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
