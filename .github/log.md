@@ -49,3 +49,7 @@ We're back! Okay, need to create that endpoint to test the Events API. I was als
 ## Apr 15 10:23PM
 
 Great! The endpoint is created and tested with ngrok
+
+## Apr 15 10:30PM
+
+Okay, i'm not receiving events when changing user data. The `request url` is verified and the workspace events were created. Need to figure it out how to trigger an event
