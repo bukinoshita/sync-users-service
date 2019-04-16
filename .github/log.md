@@ -75,3 +75,7 @@ I'll stick with this one for now.
 ### User updates should reflect in the user list view
 
 I'm thinking to use Pusher to send events notifications to the front-end so everything updates in real-time. No need a pooling or a webhook, also not sure if slack api has an easy way of doing it.
+
+## Apr 15 11:52PM
+
+Giving another break, I'm not fully focused
