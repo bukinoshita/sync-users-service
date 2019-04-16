@@ -29,3 +29,7 @@ Create a new app and attach to workspace
 ## Apr 15 09:15PM
 
 Understanding how the Events API works. Basically they will send a POST request with a `challenge` parameter and the API needs to return the challenge value.
+
+## Apr 15 09:16PM
+
+Create the project structure and the first endpoint to test the Events API
