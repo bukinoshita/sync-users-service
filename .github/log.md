@@ -61,3 +61,17 @@ I figured it out that I needed to add the app to my workspace LOL
 ## Apr 15 10:48PM
 
 Giving a break!
+
+## Apr 15 11:38PM
+
+I'm back! Next steps is to:
+
+### Existing users from the workspace should be persisted to the database
+
+I have an idea how to do it, but now sure it's the best one. The idea is to request the user list from slack and iterate through each user and save on database when the application starts. Not sure how scalable it is this approach, but I believe this should only run when the application first run.
+
+I'll stick with this one for now.
+
+### User updates should reflect in the user list view
+
+I'm thinking to use Pusher to send events notifications to the front-end so everything updates in real-time. No need a pooling or a webhook, also not sure if slack api has an easy way of doing it.
