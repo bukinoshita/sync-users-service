@@ -37,3 +37,7 @@ Need to create the project structure and the first endpoint to test the Events A
 ## Apr 15 09:28PM
 
 Create the project structure
+
+## Apr 15 9:31
+
+Pause to solve work related stuffs
