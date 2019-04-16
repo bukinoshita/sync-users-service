@@ -41,3 +41,7 @@ Create the project structure
 ## Apr 15 9:31
 
 Pause to solve work related stuffs
+
+## Apr 15 10:10PM
+
+We're back! Okay, need to create that endpoint to test the Events API. I was also thinking about creating a readme, but I'll leave that for later.
