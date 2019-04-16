@@ -17,3 +17,7 @@ Decide what technology to use
 - CircleCI
 - Mocha and supertest
 - Ngrok: heard of, but never used
+
+## Apr 15 09:10PM
+
+Create new workspace (https://sync-users.slack.com)
