@@ -2,6 +2,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const logger = require('morgan')
+const mongoose = require('mongoose')
 
 require('dotenv').config()
 
@@ -11,7 +12,14 @@ const config = require('./config')
 // Routes
 const routes = require('./routes')
 
+// Helpers
+const connectDatabase = require('./helpers/connect-database')
+
 const app = express()
+
+mongoose.Promise = global.Promise
+
+connectDatabase()
 
 app.config = config
 app.use(bodyParser.json())
