@@ -103,3 +103,7 @@ I need to update the user when it receives an event from slack
 ## Apr 17 12:29PM
 
 Starting to write some unit tests
+
+## Apr 17 01:13PM
+
+Writing docs
