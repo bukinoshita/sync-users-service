@@ -83,3 +83,7 @@ Giving another break, I'm not fully focused
 ## Apr 16 10:51PM
 
 Configuring Now and CircleCI
+
+## Apr 16 11:08PM
+
+Figuring out the data returned from slack's api to create the user model
