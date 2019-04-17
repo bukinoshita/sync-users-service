@@ -79,3 +79,7 @@ I'm thinking to use Pusher to send events notifications to the front-end so ever
 ## Apr 15 11:52PM
 
 Giving another break, I'm not fully focused
+
+## Apr 16 10:51PM
+
+Configuring Now and CircleCI
