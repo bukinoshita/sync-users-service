@@ -96,6 +96,10 @@ Just created a helper to populate existing users to database
 
 Add an endpoint to get users list
 
-## Apr 16 12:08PM
+## Apr 17 12:08PM
 
 I need to update the user when it receives an event from slack
+
+## Apr 17 12:29PM
+
+Starting to write some unit tests
