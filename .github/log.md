@@ -91,3 +91,7 @@ Figuring out the data returned from slack's api to create the user model
 ## Apr 16 11:29PM
 
 Just created a helper to populate existing users to database
+
+## Apr 16 11:44PM
+
+Add an endpoint to get users list
