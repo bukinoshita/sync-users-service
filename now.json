@@ -6,6 +6,7 @@
   "env": {
     "NODE_ENV": "@sync-users-node-env",
     "PORT": "@sync-users-port",
-    "DATABASE": "@sync-users-database"
+    "DATABASE": "@sync-users-database",
+    "SLACK_TOKEN": "@sync-users-slack-token"
   }
 }

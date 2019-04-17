@@ -87,3 +87,7 @@ Configuring Now and CircleCI
 ## Apr 16 11:08PM
 
 Figuring out the data returned from slack's api to create the user model
+
+## Apr 16 11:29PM
+
+Just created a helper to populate existing users to database

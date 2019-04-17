@@ -14,12 +14,14 @@ const routes = require('./routes')
 
 // Helpers
 const connectDatabase = require('./helpers/connect-database')
+const populateDatabase = require('./helpers/populate-database')
 
 const app = express()
 
 mongoose.Promise = global.Promise
 
 connectDatabase()
+populateDatabase()
 
 app.config = config
 app.use(bodyParser.json())
