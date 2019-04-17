@@ -5,6 +5,9 @@ const { name, version, description } = require('../package')
 const slackController = require('../controllers/slack')
 const usersController = require('../controllers/users')
 
+// Resources
+const slackResources = require('../resources/slack')
+
 // Config
 const config = require('../config')
 
@@ -18,7 +21,7 @@ module.exports = app => {
     })
   })
 
-  app.post('/slack/new', slackController.new)
+  app.post('/slack/new', slackResources.new, slackController.new)
 
   app.get('/users', usersController.get)
 }

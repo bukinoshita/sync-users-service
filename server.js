@@ -3,6 +3,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const logger = require('morgan')
 const mongoose = require('mongoose')
+const expressValidator = require('express-validator')
 
 require('dotenv').config()
 
@@ -27,6 +28,7 @@ app.config = config
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(logger('dev'))
+app.use(expressValidator())
 app.set('port', config.port)
 
 routes(app)
