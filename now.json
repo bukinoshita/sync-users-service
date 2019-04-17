@@ -1,0 +1,11 @@
+{
+  "name": "sync-users",
+  "alias": "sync-users-service",
+  "type": "docker",
+  "version": 1,
+  "env": {
+    "NODE_ENV": "@sync-users-node-env",
+    "PORT": "@sync-users-port",
+    "DATABASE": "@sync-users-database"
+  }
+}
