@@ -41,3 +41,5 @@ app.listen(app.get('port'), () => {
   )
   console.log(`Environment ${app.get('env')}`)
 })
+
+module.exports = app
