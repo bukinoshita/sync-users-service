@@ -4,7 +4,8 @@ const UserModel = require('../../models/user')
 const updateUser = async user => {
   try {
     const query = { id: user.id }
-    return UserModel.findOneAndUpdateAsync(query, user)
+    const options = { new: true, upsert: true }
+    return UserModel.findOneAndUpdateAsync(query, user, options)
   } catch (error) {
     throw new TypeError(error)
   }
