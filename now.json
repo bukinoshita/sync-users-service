@@ -7,6 +7,10 @@
     "NODE_ENV": "@sync-users-node-env",
     "PORT": "@sync-users-port",
     "DATABASE": "@sync-users-database",
-    "SLACK_TOKEN": "@sync-users-slack-token"
+    "SLACK_TOKEN": "@sync-users-slack-token",
+    "PUSHER_APP_ID": "@sync-users-pusher-app-id",
+    "PUSHER_KEY": "@sync-users-pusher-key",
+    "PUSHER_SECRET": "@sync-users-pusher-secret",
+    "PUSHER_CLUSTER": "@sync-users-pusher-cluster"
   }
 }
