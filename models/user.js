@@ -11,7 +11,8 @@ const userSchema = new mongoose.Schema(
     nickname: String,
     title: String,
     avatar: { type: String, required: true },
-    lastUpdate: Date
+    lastUpdate: Date,
+    deleted: { type: Boolean, default: false }
   },
   schemaOptions
 )

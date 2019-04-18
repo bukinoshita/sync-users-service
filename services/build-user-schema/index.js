@@ -6,7 +6,8 @@ const buildUserSchema = user => {
       nickname: user.profile.display_name,
       title: user.profile.title,
       avatar: user.profile.image_72,
-      lastUpdate: new Date(user.updated * 1000)
+      lastUpdate: new Date(user.updated * 1000),
+      deleted: user.deleted
     }
   }
 
