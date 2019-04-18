@@ -15,7 +15,7 @@ const slackNew = async (req, res) => {
     const user = buildUserSchema(event.user)
     await updateUser(user)
 
-    res.status(204)
+    res.status(200).send({ message: 'User updated' })
   } catch (error) {
     res.status(400).send({ error: { message: error } })
   }
