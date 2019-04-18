@@ -3,8 +3,10 @@ const buildUserSchema = user => {
     return {
       id: user.id,
       name: user.real_name,
-      nickname: user.name,
-      avatar: user.profile.image_72
+      nickname: user.profile.display_name,
+      title: user.profile.title,
+      avatar: user.profile.image_72,
+      lastUpdate: new Date(user.updated * 1000)
     }
   }
 

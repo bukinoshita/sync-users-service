@@ -9,7 +9,9 @@ const userSchema = new mongoose.Schema(
     id: { type: String, required: true, unique: true },
     name: { type: String, required: true },
     nickname: String,
-    avatar: { type: String, required: true }
+    title: String,
+    avatar: { type: String, required: true },
+    lastUpdate: Date
   },
   schemaOptions
 )

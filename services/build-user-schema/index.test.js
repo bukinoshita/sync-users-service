@@ -11,17 +11,18 @@ describe('services: build user schema', () => {
     const payload = {
       id: 7921,
       real_name: 'Bu Kinoshita',
-      name: 'bukinoshita',
-      profile: { image_72: 'https://google.com' },
-      nice: 2
+      profile: { image_72: 'https:', display_name: 'bukinoshita', title: 'software engineer' },
+      updated: 1555554293
     }
 
-    const { id, name, nickname, avatar } = buildUserSchema(payload)
+    const { id, name, nickname, title, avatar, lastUpdate } = buildUserSchema(payload)
 
     assert.strictEqual(id, payload.id)
     assert.strictEqual(name, payload.real_name)
-    assert.strictEqual(nickname, payload.name)
+    assert.strictEqual(nickname, payload.profile.display_name)
+    assert.strictEqual(title, payload.profile.title)
     assert.strictEqual(avatar, payload.profile.image_72)
+    assert(lastUpdate)
 
     done()
   })

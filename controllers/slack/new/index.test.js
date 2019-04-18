@@ -42,8 +42,9 @@ describe('Slack new', () => {
         user: {
           id: 7921,
           real_name: 'Bu Kinoshita',
-          name: 'bukinoshita',
-          profile: { image_72: 'https:' }
+          title: 'software engineer',
+          profile: { image_72: 'https:', display_name: 'bukinoshita' },
+          updated: 1555554293
         }
       }
     }
